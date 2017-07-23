@@ -59,4 +59,4 @@ OUTPUT
 ⚠️ WARNING   ➯ viewDidLoad() : 23 ⇨ 10
 🔹 DEBUG     ➯ viewDidLoad() : 24 ⇨ ["name": "Alex", "empId": 123] 10 ["name": "Alex", "empId": 123] 55
 
-For more detail visit my blog.
+For more detail visit my blog. http://swiftlearningbyyogesh.blogspot.com/2017/07/simple-loggerconsole-and-file-for-swift.html
