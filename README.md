@@ -3,9 +3,10 @@
 Features -
 1. You can different level for log DEBUG,INFO,ERROR,EXCEPTION,WARNING
 2. You can configure it for DEBUG, RELEASE or any configurations
-3. You can use file logger.
-4. You can configure statements for file logger.
-5. you can configure timestamp, filename, function name and line to be added or not
+3. You can configure statements for console logging.
+4. You can use file logger.
+5. You can configure statements for file logger.
+6. you can configure timestamp, filename, function name and line to be added or not
 
 
 How to use this logger ?
