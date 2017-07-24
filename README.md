@@ -12,10 +12,15 @@ Features -
 How to use this logger ?
 
 STEP 1
+
 Just add following files to you project
+
 YBLogger.swift
+
 YBLoggerConfiguration.swift
+
 YBFileLogger.swift
+
 
 STEP 2
 
