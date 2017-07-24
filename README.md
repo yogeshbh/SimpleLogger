@@ -46,19 +46,12 @@ print(employee,10,employee,55,logLevel:.DEBUG)
 OUTPUT
 
 🔹 DEBUG     ➯ 2017-07-23T13:43:57.135Z ⇨ ViewController ⇨ viewDidLoad() : 17 ⇨ One operation is completed.
-
-🔸 INFO      ➯ 2017-07-23T13:43:57.152Z ⇨ ViewController ⇨ viewDidLoad() : 18 ⇨ Operation 
-
+🔸 INFO      ➯ 2017-07-23T13:43:57.152Z ⇨ ViewController ⇨ viewDidLoad() : 18 ⇨ Operation
 🚫 ERROR     ➯ 2017-07-23T13:43:57.226Z ⇨ ViewController ⇨ viewDidLoad() : 19 ⇨ Divide by zero error
-
 ❗️ EXCEPTION ➯ 2017-07-23T13:43:57.226Z ⇨ ViewController ⇨ viewDidLoad() : 20 ⇨ Could not able to read the data.
-
 ⚠️ WARNING   ➯ 2017-07-23T13:43:57.227Z ⇨ ViewController ⇨ viewDidLoad() : 21 ⇨ Only three items are left.
-
 🔹 DEBUG     ➯ 2017-07-23T13:43:57.228Z ⇨ ViewController ⇨ viewDidLoad() : 22 ⇨ ["name": "Alex", "empId": 123]
-
 ⚠️ WARNING   ➯ 2017-07-23T13:43:57.228Z ⇨ ViewController ⇨ viewDidLoad() : 23 ⇨ 10
-
 🔹 DEBUG     ➯ 2017-07-23T13:43:57.229Z ⇨ ViewController ⇨ viewDidLoad() : 24 ⇨ ["name": "Alex", "empId": 123] 10 ["name": "Alex", "empId": 123] 55
 
 
