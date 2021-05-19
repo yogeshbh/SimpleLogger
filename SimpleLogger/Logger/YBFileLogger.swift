@@ -40,10 +40,10 @@ struct YBFileLogger: TextOutputStream {
     }
     
     lazy var fileHandle: FileHandle? = {
-        if !FileManager.default.fileExists(atPath: logFileFullPath) {
-            FileManager.default.createFile(atPath: logFileFullPath, contents: nil, attributes: nil)
+        if !FileManager.default.fileExists(atPath: YBFileLogger.logFileFullPath) {
+            FileManager.default.createFile(atPath: YBFileLogger.logFileFullPath, contents: nil, attributes: nil)
         }
-        let fileHandle = FileHandle(forWritingAtPath: logFileFullPath)
+        let fileHandle = FileHandle(forWritingAtPath: YBFileLogger.logFileFullPath)
         return fileHandle
     }()
     

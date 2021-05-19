@@ -41,7 +41,7 @@ fileprivate func symbolString() -> String {
         }
         var logLevelString = "\(self)"
         
-        for _ in 0 ..< (10 - logLevelString.characters.count)  {
+        for _ in 0 ..< (10 - logLevelString.count)  {
             logLevelString.append(" ")
         }
         messgeString = messgeString + logLevelString + "➯ "
